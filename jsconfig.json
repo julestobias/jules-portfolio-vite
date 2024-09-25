@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "baseUrl": "./", // Set to the root of your project
+    "paths": {
+      "@/*": ["src/*"] // Optional: helps with absolute imports
+    },
+    "checkJs": true,
+    "moduleResolution": "node" // Use Node module resolution
+  },
+  "include": ["src/**/*"]
+}
