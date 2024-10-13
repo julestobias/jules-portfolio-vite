@@ -1,9 +1,7 @@
 <template lang="">
   <div>
-    <h1>ABOUT ME</h1>
+    <h1>FOOTER</h1>
   </div>
 </template>
-<script>
-export default {};
-</script>
+<script></script>
 <style lang=""></style>

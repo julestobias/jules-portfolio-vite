@@ -1,10 +1,6 @@
 <template lang="">
   <div>
-    <Profile />
-    <Badge />
-    <Projects />
-    <Experience />
-    <Footer />
+    <h1>PROJECTS</h1>
   </div>
 </template>
 <script></script>
