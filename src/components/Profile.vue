@@ -14,7 +14,40 @@
         alt="image of a panda as a profile picture"
       />
     </div>
+
+    <h1 class="name">Tobias</h1>
+    <h1 class="title">Web Developer</h1>
+
+    <div class="btn-container">
+      <Button
+        label="GitHub"
+        severity="success"
+        outlined
+        icon="pi pi-github"
+        @click="goToGithub"
+      />
+      <Button
+        label="LinkedIn"
+        severity="success"
+        outlined
+        icon="pi pi-linkedin"
+        @click="goToLinkedin"
+      />
+    </div>
+
+    <Badge />
   </div>
 </template>
-<script></script>
+<script>
+export default {
+  methods: {
+    goToGithub() {
+      window.open("https://github.com/julestobias", "_blank");
+    },
+    goToLinkedin() {
+      window.open("https://www.linkedin.com/in/julestobias/", "_blank");
+    },
+  },
+};
+</script>
 <style lang=""></style>

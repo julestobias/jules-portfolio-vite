@@ -1,7 +1,6 @@
 <template lang="">
   <div>
     <Profile />
-    <Badge />
     <Projects />
     <Experience />
     <Footer />
